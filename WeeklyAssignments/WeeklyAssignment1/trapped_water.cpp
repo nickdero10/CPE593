@@ -1,3 +1,9 @@
+/*
+Author: Nicholas DeRobertis
+I Pledge my Honor that I have Abided by the Stevens Honor System
+Weekly Assignment 1: Trapped Water
+*/
+
 #include <iostream>
 #include <vector>
 using namespace std;
