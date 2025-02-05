@@ -40,8 +40,8 @@ void popContact() {
 // Function to display all contacts in the stack
 void displayContacts() {
     if(top >= 0){
-        for (int i = top; i >= top; i--) {
-            cout << "Contact " << i << ": " << endl;
+        for (int i = top; i >= 0; i--) {
+            cout << "Contact " << i + 1 << ": " << endl;
             cout << "First Name: " << contactStack[i].FirstName << endl;
             cout << "Last Name: " << contactStack[i].LastName << endl;
             cout << "Phone Number: " << contactStack[i].PhoneNumber << endl;
